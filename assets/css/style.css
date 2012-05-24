@@ -26,7 +26,8 @@ h2 {
   font-weight: normal;
   font-size: 45px;
   line-height: 50px;
-  color: #888;
+  color: white;
+  font-style: italic;
 }
 
 #topBar {
