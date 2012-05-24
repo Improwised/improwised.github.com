@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'ProcionoRegular';
+    src: url('prociono-regular-webfont.eot');
+    src: url('prociono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('prociono-regular-webfont.woff') format('woff'),
+         url('prociono-regular-webfont.ttf') format('truetype'),
+         url('prociono-regular-webfont.svg#ProcionoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('myriadpr-webfont.eot');
+    src: url('myriadpr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('myriadpr-webfont.woff') format('woff'),
+         url('myriadpr-webfont.ttf') format('truetype'),
+         url('myriadpr-webfont.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ChevinLightRegular';
+    src: url('chevin-light_font-webfont.eot');
+    src: url('chevin-light_font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('chevin-light_font-webfont.woff') format('woff'),
+         url('chevin-light_font-webfont.ttf') format('truetype'),
+         url('chevin-light_font-webfont.svg#ChevinLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

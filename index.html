@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Improwised Technologies: Pushing Technology Forward</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="Description" content="We help our customers make the most out of their business with technology.">
+    <meta name="Keywords" content="improwised technologies, business automation, technology consulting">
+    <link rel="stylesheet" href="assets/fonts/fonts.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.scrollTo-min.js"></script>
+  </head>
+  <body>
+    <div id="topBar">
+      <div class="leftBar"></div>
+      <div class="rightBar"></div>
+    </div>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul id="mainNav" class="nav">
+            <li class="active">
+              <a href="javascript:scrollTo('#welcome', '#menu1');">Home</a>
+            </li>
+            <li>
+              <a href="javascript:scrollTo('#services', '#menu2');">Our Services</a>
+            </li>
+            <li>
+              <a href="javascript:scrollTo('#contact', '#menu3');">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="content" class="wrapper">
+      <div id="welcome">
+        <img id="logo" src="assets/img/logo.png" alt="Improwised Technologies Pvt. Ltd.">
+        <h1>We automate businesses using technology</h1>
+        <a href="javascript:scrollTo('#contact','#menu3');" class="btn hello">Say Hello!</a>
+      </div>
+      <div id="services">
+        <h2>Our Services</h2>
+        <h1>Business Automation, Software Development, Web Development, Open-source Consulting, Mobile App Development, Technology Consulting</h1>
+      </div>
+      <div id="contact">
+        <h2>Reach Us!</h2>
+        <div id="address">
+          <strong>Improwised Technologies Private Limited</strong>
+          <p>211 - Amrut Comm. Complex,</p>
+          <p>Above Pujara Telecom,</p>
+          <p>Sardarnagar Main Road,</p>
+          <p>Rajkot - 360001</p>
+          <hr>
+        </div>
+        <div class="contactInfo">
+          <a href="mailto:rakshit@improwised.com?subject=ImprowisedTech Website Enquiry">
+            <i class="icon-envelope icon-white"></i><span>Email Rakshit Menpara</span>
+          </a>
+          <div class="clear"></div>
+          <a href="callto:+918866001987">+91 88660 02987</a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="leftBar"></div>
+      <div class="rightBar"></div>
+      <div class="wrapper">
+        <span>&copy; 2012. Improwised Technologies Pvt. Ltd.</span>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function switchClass(obj,className)
+      {
+        $(obj).attr('class', className);
+      }
+      function scrollTo(container, menuItem) {
+        switchClass('#mainNav li','');
+        switchClass(menuItem,'active');
+        $.scrollTo(container, 800,{offset:-70} );
+      }
+    </script>
+  </body>
+</html>
