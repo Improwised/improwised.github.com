@@ -29,6 +29,9 @@ h2 {
   color: white;
   font-style: italic;
 }
+h3 {
+  color: #888;
+}
 
 #topBar {
   height: 10px;
@@ -65,7 +68,12 @@ h2 {
   display: block;
   margin: 0px auto;
 }
-#welcome h1 {
+#welcome h1,
+#services h1,
+#services h2,
+#contact h2,
+#jobs h2,
+#jobs h3 {
   text-align: center;
   margin: 100px auto 100px auto;
   width: 800px;
@@ -73,9 +81,15 @@ h2 {
 #welcome .hello {
   margin: 60px auto 130px auto;
 }
+#jobs h3 {
+  margin: 50px auto 50px auto;
+}
+#jobs .apply {
+  margin: 60px auto 130px auto;
+}
 
 .section {
-
+  height: 700px;
 }
 .hello {
   width: 156px;
@@ -86,21 +100,18 @@ h2 {
   display: block;
   background-color: #e4a693;
 }
-
-#services h1,
-#services h2 {
-  text-align: center;
-  margin: 100px auto 100px auto;
-  width: 800px;
+.apply {
+  width: 250px;
+  height: 24px;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 35px 35px;
+  display: block;
+  background-color: #e4a693;
 }
 
 #contact {
   margin-bottom: 100px;
-}
-#contact h2 {
-  text-align: center;
-  margin: 100px auto 100px auto;
-  width: 800px;
 }
 
 #address,
