@@ -339,19 +339,117 @@
     #Work With Us
 \*------------------------------------*/
 
+.padding-right-zero {
+    padding-right: 0px;
+    position: relative;
+    z-index: 200;
+    margin-right: -1px;
+}
+
+.padding-left-zero {
+    padding-left: 0px;
+}
+
+.nav-tab .active {
+    margin-top: auto;
+    border: 0px solid  #eee;
+    background-color: transparent;
+}
+
+.nav-tab .active a {
+    margin-top: auto;
+    border: 1px solid  #eee;
+    border-right: 1px solid white;
+    border-radius: 0px;
+    color: black !important;
+    background-color: transparent !important;
+}
+
+.nav-tab > li > a:hover, .nav-tab > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+    border-radius: 0px;
+}
+
+.padding-des {
+    padding: 35px;
+}
+
+.nav-project-link,
+.nav-project-description {
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
 .btn-modified-apply-job {
-  background-color: transparent;
-  border: 3px solid #2bafd8;
-  color: #2bafd8;
+    background-color: transparent;
+    border: 3px solid #2bafd8;
+    color: #2bafd8;
 }
 
-.btn-modified-apply-job:hover {
-  background-color: transparent;
-  border: 3px solid #88b354;
-  color: #88b354;
+.btn-modified-apply-job:hover,
+.btn-modified-apply-job:active,
+.btn-modified-apply-job:visited,
+.btn-modified-apply-job:focus {
+    background-color: transparent;
+    border: 3px solid #88b354;
+    color: #88b354;
 }
 
+.border-project-des {
+    border: 1px solid #eee;
+    min-height: 500px;
+}
 
+.title-project,
+.project-name {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.title-project,
+.title-project-des {
+    color: #707070;
+}
+
+.project-name {
+    font-size: 24px;
+    color: #2bafd8;
+}
+
+.project-heading,
+.project-image {
+    display: inline-block;
+}
+
+.project-image {
+    float: right;
+}
+
+.project-image img {
+    height: 150px;
+    width: 250px;
+    background-color: #eee;
+}
+
+.project-des {
+    margin-top: 10px;
+}
+
+.title-project-des,
+.project-description {
+    font-size: 18px;
+}
+
+.project-description {
+    color: #8d8d8d;
+    font-weight: 300;
+}
+
+.has-image .project-des {
+    width: 450px;
+}
 
 
 
