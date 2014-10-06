@@ -353,22 +353,25 @@
 .nav-tab .active {
     margin-top: auto;
     border: 0px solid  #eee;
-    background-color: transparent;
 }
 
 .nav-tab .active a {
     margin-top: auto;
-    border: 1px solid  #eee;
-    border-right: 1px solid white;
-    border-radius: 0px;
-    color: black !important;
-    background-color: transparent !important;
+    border: 1px solid  #428bca;
+    border-radius: 5px 0 0 5px;
+    color: white !important;
+}
+
+.nav-tab .active a:hover {
+    border: 1px solid  #428bca;
 }
 
 .nav-tab > li > a:hover, .nav-tab > li > a:focus {
     text-decoration: none;
     background-color: #eee;
-    border-radius: 0px;
+    border-left: 1px solid  #eee;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid  #428bca;
 }
 
 .padding-des {
@@ -399,7 +402,8 @@
 
 .border-project-des {
     border: 1px solid #eee;
-    min-height: 500px;
+    border-radius: 0 5px 5px 5px;
+    min-height: 300px;
 }
 
 .title-project,
@@ -451,6 +455,52 @@
     width: 450px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .title-project-des,
+  .project-description {
+        font-size: 16px;
+    }
+
+    .has-image .project-des {
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .project-image {
+        float: none;
+        margin: 20px 0 20px 0;
+    }
+
+    .has-image .project-des {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-body {
+        text-align: left;
+    }
+
+    .title-project-xs {
+        color: #606060;
+    }
+
+    .project-name-xs {
+        color: #2bafd8;
+    }
+
+    .project-image img {
+        height: 150px;
+        width: 258px;
+        background-color: #eee;
+    }
+
+    .project-description-xs {
+        text-align: left;
+        font-size: 12px;
+    }
+}
 
 
 
