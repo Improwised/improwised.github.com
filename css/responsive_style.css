@@ -1,0 +1,142 @@
+@media screen and (max-width: 1600px){
+  #about_us {
+    left: 15%;
+  }
+  #services {
+    left: 38.33333333333333%;
+  }
+  #work_with_us {
+    left: 61.66666666666666%;
+  }
+  #contact_us {
+    left: 85%;
+  }
+
+  .portfolio{
+    width: 1058px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    display: none;
+    -webkit-transition: all 1s ease;
+    margin-left: -404px;
+  }
+
+  .link-style {
+    display: inline-block;
+    min-height: 181px;
+    width: 525px;
+    background-color: #efefef;
+    padding: 5px;
+    margin: 2px;
+    float: left;
+  }
+  .link-style a{
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+  }
+  .link-style h3{
+    color: #2baed8;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+  }
+  .link-style p {
+    display: inline-block;
+    width: 250px;
+    font-size: 16px;
+  }
+
+  .link-style:hover{
+    background-color: #efefef;
+    /*cursor: pointer;*/
+    background-color: white;
+  }
+
+}
+
+@media screen and (max-width: 1350px){
+
+  .circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    padding-top: 85px;
+    margin-left: -125px;
+  }
+
+  .animation_class{
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    -webkit-transition: all 1s ease;
+    position: fixed;
+    top: 50% !important;
+    margin-top: -250px;
+    margin-left: -250px;
+    left: -0% !important;
+    box-shadow: 0 0 30px #2baed8;
+  }
+
+  .change_delay{
+    -webkit-animation-duration: 0.4s !important;
+    -webkit-animation-delay: 0s !important;
+  }
+
+  .animation_class h1{
+    color: #2baed8;
+    font-weight: 500;
+    -webkit-transition: all 1s ease;
+    margin-left: 235px;
+    margin-top: 135.25px;
+  }
+
+  /*#about_us {
+    left: 10%;
+  }
+  #services {
+    left: 36.6666666666666%;
+  }
+  #work_with_us {
+    left: 63.3333333333332%;
+  }
+  #contact_us {
+    left: 90%;
+  }*/
+
+  .portfolio{
+    width: 682px;
+    margin-left: -202px;
+  }
+
+  .link-style {
+    width: 652px;
+    padding: 5px;
+  }
+  .link-style p {
+    width: 375px;
+  }
+
+  .about_us_des, .services_des {
+    margin-left: -160px;
+  }
+
+}
+
+@media screen and (max-height: 730px){
+  .padding{
+    margin-top: 30px;
+  }
+  #about_us {
+    top: 220px;
+  }
+  #services {
+    top: 220px;
+  }
+  #work_with_us {
+    top: 220px;
+  }
+  #contact_us {
+    top: 220px;
+  }
+}
