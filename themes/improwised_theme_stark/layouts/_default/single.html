@@ -1,0 +1,14 @@
+{{ $partial_name := (print .Params.Title ".html") }}
+<!doctype html>
+<html lang="en">
+    {{ partial "head.html" . }}
+    <body class=" " data-smooth-scroll-offset='64'>
+        {{ partial "navigation.html" . }}
+        {{ partial $partial_name . }}
+        <!--<div class="loader"></div>-->
+        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+            <i class="stack-interface stack-up-open-big"></i>
+        </a>
+        {{ partial "scripts.html" . }}
+    </body>
+</html>

@@ -2,7 +2,7 @@
 baseurl = "http://improwised.gitlab.io/"
 languageCode = "en-us"
 title = "Improwised Technologies Pvt Ltd"
-theme = "hugo-agency-theme"
+theme = "improwised_theme_stark"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

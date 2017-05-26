@@ -1,0 +1,87 @@
+/* extra css */
+
+.display_flex{
+  display: flex;
+}
+
+.align_self_center{
+  align-self: center;
+}
+
+
+
+
+/* navigaion */
+.bar.navigation-style {
+  padding: 0;
+  min-height: 100px;
+}
+
+.bar.navigation-style .container .row{
+  display: flex;
+  min-height: 100px;
+}
+
+.logo-style,
+.menu-style {
+  align-self: center;
+}
+
+.logo-style .logo{
+  height: 80px;
+  top: -3px;
+}
+
+
+/* services */
+.services .feature{
+  min-height: 371.5px;
+}
+
+.services .feature h4 + p {
+  max-width: 100%;
+}
+
+
+/* features */
+.features-style .feature{
+  min-height: 249px;
+}
+
+.features-style .feature p{
+  min-height: auto;
+}
+
+/* technologies */
+.technologies .feature{
+  min-height: 300px;
+}
+
+
+.technologies img{
+  margin: 0 5px 15px 5px;
+  height: 50px;
+}
+
+
+/* responsive */
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+  .bar.navigation-style .container .row{
+    display: block;
+  }
+  .services .feature{
+    min-height: 368.09px;
+  }
+  .technologies .feature{
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services .feature{
+    min-height: auto;
+  }
+}
