@@ -29,13 +29,14 @@
 
 .logo-style .logo{
   height: 80px;
+  max-height: 80px;
   top: -3px;
 }
 
 
 /* services */
 .services .feature{
-  min-height: 371.5px;
+  min-height: 403.5px;
 }
 
 .services .feature h4 + p {
@@ -45,7 +46,7 @@
 
 /* features */
 .features-style .feature{
-  min-height: 249px;
+  min-height: 250px;
 }
 
 .features-style .feature p{
@@ -78,10 +79,18 @@
   .technologies .feature{
     min-height: auto;
   }
+  .logo-style .logo {
+      top: 4px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .services .feature{
     min-height: auto;
+  }
+  .logo-style .logo {
+      top: 0px;
+      height: auto;
+      max-height: 80px;
   }
 }
