@@ -1,0 +1,58 @@
+/* careers - start */
+
+.careers .heroUnit {
+  display: flex;
+  min-height: 500px;
+  position: relative;
+  align-items: center;
+  background: url(/careers.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.careers .label {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-transform: lowercase;
+  height: auto;
+  min-width: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  line-height: 1;
+}
+
+.career {
+  font-size: 18px;
+}
+
+.career .jobPosition li {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .careers .heroUnit {
+    min-height: auto;
+  }
+}
+
+.teamMarquee {
+  overflow: hidden;
+}
+
+.teamMarquee div {
+  height: 450px;
+  width: 6143px;
+  animation: slide 100s linear infinite;
+  background-image: url(/team.jpg);
+}
+
+@keyframes slide {
+  0%   {background-position: 0 0;}
+  100% {background-position: -6143px 0;}
+}
+
+/* careers - end */
+
+/* ========================================================================== */
