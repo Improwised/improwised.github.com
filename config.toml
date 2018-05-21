@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://improwised.gitlab.io/"
+baseurl = "https://www.improwised.com/"
 languageCode = "en-us"
 title = "Improwised Technologies Pvt Ltd"
 theme = "improwised_theme_stark"
