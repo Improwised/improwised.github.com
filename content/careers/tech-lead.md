@@ -1,6 +1,6 @@
 ---
 title: "Tech Lead"
-date: 2018-05-27T13:25:22+05:30
+date: 2018-05-21T13:03:18+05:30
 draft: false
 carrerSummary:
   time: 'fulltime'

@@ -1,6 +1,6 @@
 ---
 title: "Project Manager"
-date: 2018-05-27T13:24:28+05:30
+date: 2018-05-21T13:03:18+05:30
 draft: false
 carrerSummary:
   time: 'fulltime'
