@@ -5,26 +5,27 @@
     <a id="start"></a>
     {{ partial "navigation.html" . }}
     <!--  -->
+    <link rel="stylesheet" type="text/css" href="/css/markdown.css">
+    <!--  -->
     <div class="main-container career">
-      <section class="space--sm">
+      <section class="space--xs serviceHeader">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12">
+            <div class="col-xs-12 text-center">
               <h1>{{.Params.title}}</h1>
               {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
               {{ $.Scratch.Add "path" .Site.BaseURL }}
               {{ $.Scratch.Add "currentURL" .URL }}
               {{ $pageNotFound := (eq (replace $.Site.BaseURL .Site.BaseURL "404.html") .URL) }}
-              <ol class="breadcrumbs">
-                <li><a href="/">Home</a></li>
+              <!-- <ol class="breadcrumbs">
+                <li><a href="{{ .Site.BaseURL }}">Home</a></li>
                 {{ range $index, $element := split $url "/" }}
                 {{ $.Scratch.Add "path" $element }}
                 {{ $.Scratch.Add "path" "/" }}
-                <!-- Check if the current list item is the last one -->
                 {{ $isLast := eq ($.Scratch.Get "path") $.Permalink }}
                 {{ if ne $element "" }}
                 {{ if and (not $isLast) (not $pageNotFound) }}
-                <li><a href='{{ $.Scratch.Get "path" | relURL}}'>{{ title ( replace . "-" " ") }}</a></li>
+                <li><a href='{{ $.Scratch.Get "path" }}'>{{ title ( replace . "-" " ") }}</a></li>
                 {{ else if $pageNotFound }}
                 <li>404</li>
                 {{ else }}
@@ -32,38 +33,22 @@
                 {{ end }}
                 {{ end }}
                 {{ end }}
-              </ol>
-              <hr>
+              </ol> -->
             </div>
           </div>
           <!--end of row-->
         </div>
         <!--end of container-->
       </section>
-      <section class="switchable">
-        <div class="container">
-          <div class="row jobPosition">
-            {{.Content}}
-          </div>
-          <!--end of row-->
-        </div>
-        <!--end of container-->
-      </section>
-      <section class="text-center">
+      <section>
         <div class="container">
           <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-              <div class="cta">
-                <h2>Sound like the job for you?</h2>
-                <p class="lead">
-                  Got what it takes to work with us? Great! Send us a link to your resumé or portfolio to become part of our talent pool.
-                </p>
-                <a class="btn btn--primary type--uppercase" href="mailto:careers@improwised.com?subject=Dropped Resume for get job">
-                  <span class="btn__text">
-                    Drop your resume here
-                  </span>
-                </a>
-              </div>
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+              <article class="markdown-body">
+                <div>
+                  {{.Content}}
+                </div>
+              </article>
             </div>
           </div>
           <!--end of row-->
