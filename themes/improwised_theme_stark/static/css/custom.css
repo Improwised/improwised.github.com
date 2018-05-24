@@ -84,9 +84,22 @@ html, body {
 
 .technologies img{
   margin: 0 5px 15px 5px;
-  height: 50px;
+  max-height: 50px;
 }
 
+.travisci {
+  background-color: #2EB459;
+  border-radius: 50%;
+  border: 2px solid #2EB459;
+}
+
+.w50 {
+  width: 50px;
+}
+
+.w150 {
+  width: 150px;
+}
 
 /* responsive */
 @media screen and (max-width: 1199px) {
