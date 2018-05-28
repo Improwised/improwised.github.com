@@ -1,8 +1,9 @@
-{{ $partial_name := (print .Params.Title ".html") }}
+{{ $partial_name := (print ( .Params.Title | lower ) ".html") }}
 <!doctype html>
 <html lang="en">
     {{ partial "head.html" . }}
     <body class=" " data-smooth-scroll-offset='64'>
+        <a id="start"></a>
         {{ partial "navigation.html" . }}
         {{ partial $partial_name . }}
         <!--<div class="loader"></div>-->
