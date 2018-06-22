@@ -5,6 +5,8 @@ draft: false
 carrerSummary:
   time: 'fulltime'
   text: '6+ years of relevant experience'
+sitemap:
+  priority: 0.7
 ---
 
 <div class="col-md-8 col-sm-12">
