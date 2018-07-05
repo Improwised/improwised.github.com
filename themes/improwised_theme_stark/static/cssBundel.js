@@ -1,0 +1,9 @@
+require("./css/bootstrap.css");
+require("./css/stack-interface.css");
+require("./css/socicon.css");
+require("./css/lightbox.min.css");
+require("./css/flickity.css");
+require("./css/iconsmind.css");
+require("./css/theme.css");
+require("./css/index.css");
+require("./css/font-rubiklato.css");
