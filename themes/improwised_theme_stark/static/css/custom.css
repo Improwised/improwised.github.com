@@ -101,6 +101,24 @@ html, body {
   width: 150px;
 }
 
+.whyUS .feature {
+  min-height: 350px;
+}
+
+.markdown-body ul {
+  list-style: inherit;
+}
+
+.markdown-body .technologyName {
+  font-size: 20px;
+  border-bottom: none;
+}
+
+.serviceHeader {
+  border-bottom: 1px solid #eaecef;
+  margin-bottom: 3.71428571em;
+}
+
 /* responsive */
 @media screen and (max-width: 1199px) {
   .services .feature{

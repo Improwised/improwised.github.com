@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body class=" " data-smooth-scroll-offset='64'>
+    <a id="start"></a>
+    {{ partial "navigation.html" . }}
+    <!--  -->
+    <div class="main-container careers services">
+      <section class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>{{.Title}}</h1>
+            </div>
+          </div>
+          <!--end of row-->
+        </div>
+        <!--end of container-->
+      </section>
+      <div class="main-container">
+        {{ range $i,$p := where .Data.Pages "Section" "services" }}
+        <section class="imageblock switchable feature-large bg--secondary space--sm {{if not (modBool $i 2)}} switchable--switch {{end}}">
+          <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+            <div class="background-image-holder">
+              <img src="{{.Params.imagePath}}" alt="{{.Title | lower}}" title="{{.Title | lower}}" />
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 col-sm-7">
+                <h2>{{.Title}}</h2>
+                <p class="lead">{{.Params.shortDes}}</p>
+                <a href="{{.RelPermalink}}">
+                View Details
+                </a>
+              </div>
+            </div>
+            <!--end of row-->
+          </div>
+          <!--end of container-->
+        </section>
+        {{end}}
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+    <!--  -->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    {{ partial "scripts.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  </body>
+</html>
