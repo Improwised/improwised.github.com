@@ -121,9 +121,9 @@ html, body {
 
 /* responsive */
 @media screen and (max-width: 1199px) {
-  .services .feature{
+  /*.services .feature{
     min-height: 385px;
-  }
+  }*/
   .technologies .feature{
     min-height: auto;
   }
