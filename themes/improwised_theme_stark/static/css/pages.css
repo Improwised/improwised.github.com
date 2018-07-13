@@ -31,8 +31,21 @@
   margin-bottom: 15px;
 }
 
+.about-us .heroUnit {
+  display: flex;
+  min-height: 500px;
+  position: relative;
+  align-items: center;
+  background: url(/about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 7.42857143em;
+}
+
 @media screen and (max-width: 991px) {
-  .careers .heroUnit {
+  .careers .heroUnit,
+  .about-us .heroUnit {
     min-height: auto;
   }
 }

@@ -62,6 +62,8 @@
     <i class="stack-interface stack-up-open-big"></i>
     </a>
     {{ partial "scripts.html" . }}
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{ if eq .Site.Params.env "production" }}
+      {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
   </body>
 </html>
