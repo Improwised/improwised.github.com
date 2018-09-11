@@ -65,7 +65,7 @@ html, body {
 
 /* technologies */
 .technologies .feature{
-  min-height: 305px;
+  min-height: 330px;
 }
 
 .services .feature:hover {
@@ -125,7 +125,7 @@ html, body {
     min-height: 385px;
   }*/
   .technologies .feature{
-    min-height: auto;
+    min-height: 330px;
   }
   .feature.feature-5 {
     min-height: 310px;
@@ -137,6 +137,10 @@ html, body {
     display: block;
   }
   .services .feature {
+    min-height: auto;
+  }
+
+  .technologies .feature{
     min-height: auto;
   }
 
