@@ -43,6 +43,10 @@
   margin-bottom: 7.42857143em;
 }
 
+.switchable .currentOpening div[class*='col-']:last-child {
+  float: left;
+}
+
 @media screen and (max-width: 991px) {
   .careers .heroUnit,
   .about-us .heroUnit {
