@@ -11,7 +11,6 @@ window.onloadCallback = function() {
 setInitial();
 
 function enableBtn() {
-  console.log("called")
   $("#btn-submit").attr("disabled", false);
 }
 
@@ -70,7 +69,6 @@ $(function() {
           showSuccess();
         },
         error: function(err) {
-          console.log("err", err)
           setToDefault();
           var errors = err.responseJSON ? err.responseJSON.error : undefined;
           showErrors(errors || ['Something went wrong. Please try again']);
