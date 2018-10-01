@@ -9,5 +9,7 @@ googleAnalytics = "UA-562351-11"
 
 [params]
   env = "production"
+  API_URL = "https://rnnmftp4t7.execute-api.us-west-2.amazonaws.com/production/api/contactus"
+  SITE_KEY = "6LfM73IUAAAAAFFFAv5jHjpT_UIjRZqD2xcijnwn"
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
