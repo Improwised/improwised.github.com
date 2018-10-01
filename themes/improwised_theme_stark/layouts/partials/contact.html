@@ -1,50 +1,63 @@
 <div class="main-container">
-    <div class="main-container">
-        <section class="text-center height-50">
-            <div class="container pos-vertical-center">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Let's talk about your project</h1>
-                        <p class="lead">
-                            Send us an email to talk more about your project or idea.
-                        </p>
-                    </div>
-                </div>
-                <!--end of row-->
+  <div class="main-container">
+    <section class="text-center height-50">
+      <div class="container pos-vertical-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Let's talk about your project</h1>
+            <p class="lead">
+              Send us an email to talk more about your project or idea.
+            </p>
+          </div>
+        </div>
+        <!--end of row-->
+      </div>
+      <!--end of container-->
+    </section>
+    <section class="switchable">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-7 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6509218365454!2d70.78636435101201!3d22.29120934878471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca22a0751231%3A0x23edc234940c18b2!2sImprowised+Technologies+Private+Limited.!5e0!3m2!1sen!2sin!4v1495780225620" width="600" height="530" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-5 col-sm-5">
+            <div id="errorMessages"></div>
+            <div id="success">
+              <div class="success-msg">
+                <b>Message has been sent successfully. We will contact you shortly.</b>
+              </div>
             </div>
-            <!--end of container-->
-        </section>
-        <section class="switchable ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-7 col-xs-12">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6509218365454!2d70.78636435101201!3d22.29120934878471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca22a0751231%3A0x23edc234940c18b2!2sImprowised+Technologies+Private+Limited.!5e0!3m2!1sen!2sin!4v1495780225620" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-5 col-sm-5">
-                        <div class="switchable__text">
-                            <h3>322 - Landmark, Astron Chowk,<br/>
-                            Rajkot - 360001, Gujarat, India.</h3>
-                            <p class="lead">
-                                Email:
-                                <a href="mailto:sales@improwised.com?subject=Improwised Technologies Enquiry">sales@improwised.com</a>
-                            </p>
-                            <p class="lead">
-                                Drop us an email; we try to respond to all enquiries within 1 business day.
-                            </p>
-                            <p class="lead">
-                                We are open from 10am &mdash; 7pm on weekdays.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!--end of row-->
-            </div>
-            <!--end of container-->
-        </section>
-        {{ partial "footer.html" . }}
-    </div>
-    <!--<div class="loader"></div>-->
-    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
-        <i class="stack-interface stack-up-open-big"></i>
-    </a>
+            <form action="{{ .Site.Params.API_URL }}" id="contactus-submit">
+              <input type="hidden" name="sitekey" id="sitekey" value="{{ .Site.Params.SITE_KEY}}" />
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full name" required="required">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email"
+                     placeholder="Email" required="required">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea type="textarea" class="form-control" id="message" name="message"
+                  rows="8" placeholder="Enter message" required="required"></textarea>
+              </div>
+              <div class="form-group">
+                <div id="recaptcha"></div>
+              </div>
+              <button type="submit" class="btn btn--primary type--uppercase" id="btn-submit" disabled="disabled">Send</button>
+            </form>
+          </div>
+        </div>
+        <!--end of row-->
+      </div>
+      <!--end of container-->
+    </section>
+    {{ partial "footer.html" . }}
+  </div>
+  <!--<div class="loader"></div>-->
+  <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+  </a>
 </div>

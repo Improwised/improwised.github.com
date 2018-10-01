@@ -1,3 +1,5 @@
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"></script>
+
 {{ if ne .Site.Params.env "production" }}
   <script src="/js/jquery-3.1.1.min.js"></script>
   <script src="/js/flickity.min.js"></script>
@@ -12,6 +14,7 @@
   <script src="/js/spectragram.min.js"></script>
   <script src="/js/smooth-scroll.min.js"></script>
   <script src="/js/scripts.js"></script>
+  <script src="/js/contactus.js"></script>
 {{ else }}
   <script src="/dist/index.min.js" async="true"></script>
 {{ end }}
