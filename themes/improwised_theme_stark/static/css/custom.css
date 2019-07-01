@@ -12,6 +12,9 @@ html, body {
   align-self: center;
 }
 
+.fs-24 {
+  font-size: 24px;
+}
 
 /* */
 .lead {
