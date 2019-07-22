@@ -1,4 +1,5 @@
 {
-  "version": 2,
+  "type": "static",
+  "version": 1,
   "name": "improwised"
 }
