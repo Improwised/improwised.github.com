@@ -9,7 +9,7 @@ sitemap:
   priority: 0.7
 ---
 
-<div class="col-md-8 col-sm-12">
+<div class="col-md-8 col-sm-12 job-details">
   <p>
     We are cloud oriented software developing company, seeking a Lead Developer to work on a variety of projects ranging from SaaS products to building out API’s and architecting backend tools.
   </p>

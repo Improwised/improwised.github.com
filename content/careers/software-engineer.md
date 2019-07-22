@@ -9,7 +9,7 @@ sitemap:
   priority: 0.7
 ---
 
-<div class="col-md-8 col-sm-12">
+<div class="col-md-8 col-sm-12 job-details">
   <p>
     Interested in working with cutting edge technologies building online applications? Does solving difficult technical challenges at large scale appeal to you? If so, please join us as we grow our team responsible for developing cloud solutions. We help startups and enterprises design and implement products at web scale. We utilize cutting edge technology within our software development process, including Node.js, React, Docker, all designed to run on top of the cloud. You’ll have the opportunity to work with a very talented team of engineers as we continue to grow the business to meet the needs of our customers today, tomorrow, and beyond.
   </p>

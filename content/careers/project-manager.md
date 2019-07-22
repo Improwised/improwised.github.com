@@ -9,7 +9,7 @@ sitemap:
   priority: 0.7
 ---
 
-<div class="col-md-8 col-sm-12">
+<div class="col-md-8 col-sm-12 job-details">
   <p>
     If your goal is to be in any position of technical leadership, we have an exciting opportunity for you. You get to wear multiple hats and would be embodiment of innovation.
   </p>
