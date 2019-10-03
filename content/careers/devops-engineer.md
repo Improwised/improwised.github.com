@@ -2,6 +2,7 @@
 title: "DevOps Engineer"
 date: 2019-07-22T17:22:03+05:30
 draft: false
+weight: 3
 carrerSummary:
   time: 'fulltime'
   text: '0+ years of relevant experience'

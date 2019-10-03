@@ -2,9 +2,10 @@
 title: "Software Engineer"
 date: 2018-05-21T13:03:18+05:30
 draft: false
+weight: 2
 carrerSummary:
   time: 'fulltime'
-  text: '2+ years of relevant experience'
+  text: '1 to 2 years of relevant experience'
 sitemap:
   priority: 0.7
 ---
@@ -16,30 +17,56 @@ sitemap:
   <div class="text-block">
     <h5>Responsibilities</h5>
     <ul class="bullets">
-      <li>You are extremely technical and have significant experience developing scalable web applications, with a penchant for building elegant and maintainable systems that get the job done with minimal complexity.</li>
-      <li>Knowledge of professional software engineering practices & best practices for the full software development life cycle, including coding standards, code reviews, source control management,  Continuous Integration, build processes, testing, and operations.</li>
-      <li>A deep understanding of Linux operating systems and command line shell.</li>
-      <li>A strong business and technical vision and the ability to translate these in business and technical approaches, and lead engineering efforts to meet aggressive timelines with optimal solutions.</li>
-      <li>Proven experience of developing large-scale projects from conception to completion.</li>
-      <li>Collaborate with your peers and product management to define the engineering roadmap, and provide your input to prioritize different projects.</li>
-      <li>Work with Product Managers, Developers and Customers to understand requirements for systems for development and testing.</li>
-      <li>Develop automation and other tools to minimize delivery time and increase developer productivity.</li>
-      <li>Participate in the design and development of new and evolving services, architecture, and performance standards</li>
-      <li>Troubleshoot both infrastructure and infrastructure automation issues</li>
-      <li>Provide assistance and support personnel as needed to determine system problems. </li>
+      <li>
+        You are extremely technical and have significant experience developing scalable web applications, with a penchant for building elegant and maintainable systems that get the job done with minimal complexity.
+      </li>
+      <li>
+        Knowledge of professional software engineering practices & best practices for the full software development life cycle, including coding standards, code reviews, source control management,  Continuous Integration, build processes, testing, and operations.
+      </li>
+      <li>
+        A deep understanding of Linux operating systems and command line shell.
+      </li>
+      <li>
+        Proven experience of developing large-scale projects from conception to completion.
+      </li>
+      <li>
+        Develop automation and other tools to minimize delivery time and increase developer productivity.
+      </li>
+      <li>
+        Participate in the design and development of new and evolving services, architecture, and performance standards.
+      </li>
+      <li>
+        Provide assistance and support personnel as needed to determine system problems. 
+      </li>
     </ul>
   </div>
   <div class="text-block">
     <h5>Skills required:</h5>
     <ul class="bullets">
-      <li>2+ years of Hands on software development in any of these languages: JavaScript/PHP/Go</li>
-      <li>Strong experience with cloud-native applications (e.g. for AWS, DigitalOcean, GCP etc.)</li>
-      <li>Ability to work in a fast paced, evolving, growing and agile environment</li>
-      <li>Strong level of curiosity and interest to learn.</li>
-      <li>On-call and night and weekend work are occasionally required</li>
-      <li>Excellent interpersonal skills and enjoy working in a highly iterative, agile, and open team environment.</li>
-      <li>Possess excellent communication skills, with an emphasis on verbal and written communication and a positive attitude and ability to multitask.</li>
-      <li>Experience with docker and cluster deployment a plus.</li>
+      <li>
+        Extensive Hands on software development in any of these languages: JavaScript/PHP/   
+      </li>
+      <li>
+        Strong experience with cloud-native applications (e.g. for AWS, DigitalOcean, GCP etc.)
+      </li>
+      <li>
+        Ability to work in a fast paced, evolving, growing and agile environment
+      </li>
+      <li>
+        Strong level of curiosity and interest to learn.
+      </li>
+      <li>
+        On-call and night and weekend work are occasionally required
+      </li>
+      <li>
+        Excellent interpersonal skills and enjoy working in a highly iterative, agile, and open team environment.
+      </li>
+      <li>
+        Possess excellent communication skills, with an emphasis on verbal and written communication and a positive attitude and ability to multitask. 
+      </li>
+      <li>
+        Experience with docker and cluster deployment a plus.
+      </li>
     </ul>
   </div>
 </div>
@@ -47,7 +74,7 @@ sitemap:
   <div class="text-block">
     <h5>Experience</h5>
     <p>
-      2+ years of relevant experience
+      1 to 2 years of relevant experience
     </p>
   </div>
   <div class="text-block">
