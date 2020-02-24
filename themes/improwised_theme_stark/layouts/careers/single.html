@@ -13,8 +13,8 @@
               <h1>{{.Params.title}}</h1>
               {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
               {{ $.Scratch.Add "path" .Site.BaseURL }}
-              {{ $.Scratch.Add "currentURL" .URL }}
-              {{ $pageNotFound := (eq (replace $.Site.BaseURL .Site.BaseURL "404.html") .URL) }}
+              {{ $.Scratch.Add "currentURL" .RelPermalink }}
+              {{ $pageNotFound := (eq (replace $.Site.BaseURL .Site.BaseURL "404.html") .RelPermalink) }}
               <ol class="breadcrumbs">
                 <li><a href="/">Home</a></li>
                 {{ range $index, $element := split $url "/" }}
