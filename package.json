@@ -12,6 +12,6 @@
     "webpack-cli": "^3.0.8"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js && hugo"
   }
 }
