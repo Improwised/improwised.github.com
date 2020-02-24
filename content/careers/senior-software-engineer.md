@@ -1,7 +1,7 @@
 ---
 title: "Senior Software Engineer"
 date: 2019-10-03T12:39:42+05:30
-draft: false
+draft: true
 weight: 1
 carrerSummary:
   time: 'fulltime'
