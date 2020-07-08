@@ -36,9 +36,13 @@ const BASE_CACHE_FILES = [
     'img/technologies/travis-ci.svg',
     'img/technologies/scrutinizer-ci.png',
     'img/technologies/bitbucket.svg',
-    'about.jpg',
-    'careers.jpg',
-    'team.jpg',
+    'about-improwised',
+    'careers',
+    'contact',
+    'cloud-infrastructure-services',
+    'software-product-modernization',
+    'web-software-development',
+    'technology-consulting'
 ];
 
 const OFFLINE_CACHE_FILES = [
@@ -77,9 +81,13 @@ const OFFLINE_CACHE_FILES = [
     'img/technologies/travis-ci.svg',
     'img/technologies/scrutinizer-ci.png',
     'img/technologies/bitbucket.svg',
-    'about.jpg',
-    'careers.jpg',
-    'team.jpg',
+    'about-improwised',
+    'careers',
+    'contact',
+    'cloud-infrastructure-services',
+    'software-product-modernization',
+    'web-software-development',
+    'technology-consulting'
 ];
 
 const NOT_FOUND_CACHE_FILES = [
