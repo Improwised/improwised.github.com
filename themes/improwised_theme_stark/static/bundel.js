@@ -13,4 +13,5 @@ window.smoothScroll = require("./js/smooth-scroll.min.js");
 require("./js/scripts.js");
 require("./cssBundel.js");
 require("./js/contactus.js");
+require("./js/lazysizes.min.js");
 
