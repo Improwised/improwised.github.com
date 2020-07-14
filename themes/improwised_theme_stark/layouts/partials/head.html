@@ -30,7 +30,11 @@
     <link href="/css/index.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/css/font-rubiklato.css" rel="stylesheet" type="text/css" media="all" />
     {{ else }}
-    <link href="/dist/index.min.css" rel="stylesheet" type="text/css" media="all" lazyload/>
+    <link href="/dist/index.min.css" rel="preload" as="style"/>
+    <link rel="stylesheet" href="/dist/index.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href='/dist/index.min.css'>
+      </noscript>
     {{ end }}
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://maps.googleapis.com" rel="preconnect">
