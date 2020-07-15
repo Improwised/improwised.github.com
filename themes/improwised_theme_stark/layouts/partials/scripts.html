@@ -28,26 +28,11 @@
       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
       a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+    if ('ontouchstart' in document.documentElement) {
+      document.addEventListener('touchstart', onTouchStart, {passive: true});
+    }
     
   }, false);
-  if ('ontouchstart' in document.documentElement) {
-    document.addEventListener('touchstart', onTouchStart, {passive: true});
-  }  
   </script>
 {{ end }}
-<script>
-  // Register Service Worker
-  if('serviceWorker' in navigator) {
-      navigator.serviceWorker
-          .register('/sw.js', { scope: '/' })
-          .then(function(registration) {
-              //console.log('Service Worker Registered');
-          });
-
-      navigator.serviceWorker
-          .ready
-          .then(function(registration) {
-              //console.log('Service Worker Ready');
-          });
-  }
-</script>
