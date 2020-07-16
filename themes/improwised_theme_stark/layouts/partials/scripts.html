@@ -1,5 +1,3 @@
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async></script>
-
 {{ if ne .Site.Params.env "production" }}
   <script src="/js/jquery-3.1.1.min.js"></script>
   <script src="/js/flickity.min.js"></script>
@@ -28,11 +26,6 @@
       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
       a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-
-    if ('ontouchstart' in document.documentElement) {
-      document.addEventListener('touchstart', onTouchStart, {passive: true});
-    }
-    
   }, false);
   </script>
 {{ end }}
