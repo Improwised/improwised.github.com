@@ -1,4 +1,4 @@
-window.jQuery = window.jquery = window.$ = require('./js/jquery-3.1.1.min.js');
+window.jQuery = window.jquery = window.$ = require('./js/jquery-3.5.1.min.js');
 require("./js/flickity.min.js");
 require("./js/easypiechart.min.js");
 require("./js/parallax.js");
@@ -13,4 +13,5 @@ window.smoothScroll = require("./js/smooth-scroll.min.js");
 require("./js/scripts.js");
 require("./cssBundel.js");
 require("./js/contactus.js");
+require("./js/lazysizes.min.js");
 
