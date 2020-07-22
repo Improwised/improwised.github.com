@@ -1,12 +1,6 @@
 const path = require('path');
-const PurgecssPlugin = require('purgecss-webpack-plugin')
-const glob = require('glob');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const TerserJSPlugin = require('terser-webpack-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const PATHS = {
-  src: path.join(__dirname)
-}
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const extractCSS = new ExtractTextPlugin('index.min.css');
 
 module.exports = {
   mode: 'production',
@@ -18,21 +12,18 @@ module.exports = {
   externals: {
     "jquery": "$"
   },
-  optimization: {
-    minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
-  },
   module: {
     rules: [{
       test: /(\.css$)/,
-      use: [
-        {
-          loader: MiniCssExtractPlugin.loader,
-          options: {
-            publicPath: path.resolve(__dirname, './themes/improwised_theme_stark/static/'),
-          },
-        },
-        'css-loader',       
+      include: [
+        path.resolve(__dirname, './themes/improwised_theme_stark/static/'),
       ],
+      use: extractCSS.extract([{
+        loader: 'css-loader',
+        options: {
+          minimize: true
+        }
+      }])
     }, {
       test: /\.(png|woff|woff2|eot|ttf|svg)$/,
       include: [
@@ -42,12 +33,6 @@ module.exports = {
     }]
   },
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: 'index.min.css',
-      chunkFilename: '[id]index.min.css.css',
-    }),
-    new PurgecssPlugin({
-      paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),
-    }),
+    extractCSS
   ]
 };
