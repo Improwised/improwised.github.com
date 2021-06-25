@@ -1,7 +1,7 @@
 ---
-title: "Front End Developer"
+title: "Sr Frontend Developer"
 date: 2019-10-03T12:56:24+05:30
-draft: true
+draft: false
 weight: 5
 carrerSummary:
   time: 'fulltime'
