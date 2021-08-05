@@ -3,8 +3,8 @@ title: "Cloud Infrastructure Services"
 date: 2018-05-21T16:21:00+05:30
 draft: false
 url: "/cloud-infrastructure-services"
-metaTitle: "Top Cloud Infrastructure Services | Best Cloud Computing Services"
-metaDes: "From cloud infrastructure development to all cloud computing services to enable a scalable, reliable and secure software cloud infrastructure for you. Our experts will provide omnichannel cloud infrastructure services and solutions at affordable rates."
+metaTitle: "Cloud Infrastructure Services | Improwised Technologies"
+metaDes: "We provide all cloud computing services to enable a scalable, reliable & secure software cloud infrastructure for you."
 weight: 3
 imagePath: "/services/cloud-infrastructure-services.jpg"
 shortDes: "Elevate your business by using abundant power of cloud platforms. The cloud platforms have brought radical changes in the IT industry."

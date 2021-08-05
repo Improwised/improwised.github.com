@@ -3,8 +3,8 @@ title: "Technology Consulting"
 date: 2018-05-21T16:19:55+05:30
 draft: false
 url: "/technology-consulting"
-metaTitle: "Technology Consulting Services | Expert Technical Consultation"
-metaDes: "Our best technology consulting service will assist you in different phases of your software development and business growth. Our expert technical consultation will define your roadmap to success."
+metaTitle: "Technology Consulting Services | Improwised Technologies"
+metaDes: "Our technology consulting service will assist you in different phases of your software development & business growth."
 weight: 1
 imagePath: "/services/technology-consulting.jpg"
 shortDes: "Day by day technologies are taking leaps and bounds. You have to match pace with the revolutionary innovations and dynamic changes in the IT landscape."

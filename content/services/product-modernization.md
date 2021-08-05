@@ -3,8 +3,8 @@ title: "Product Modernization"
 date: 2018-07-09T17:52:38+05:30
 draft: false
 url: "/software-product-modernization"
-metaTitle: "Software Product Modernization Services | Legacy Application Modernization, Migration"
-metaDes: "Give your legacy application a boost with our software product modernization services. We can make your legacy business solutions scalable, robust and secure with our expert legacy app modernization and migration services."
+metaTitle: "Software Product Modernization | Improwised Technologies"
+metaDes: "Give your legacy application a boost with our software product modernization services."
 weight: 4
 imagePath: "/services/product-modernization.png"
 shortDes: "Each business has to face disruption due to challenges and amendments in business model, client expectations and the legacy system."
