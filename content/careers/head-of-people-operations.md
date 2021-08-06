@@ -88,7 +88,7 @@ sitemap:
       Full time
     </p>
   </div>
-  <div class="text-block">
+  <div class="bullets">
     <h5>Educational Qualification:</h5>
     <ul>
       <li>
@@ -115,7 +115,7 @@ sitemap:
 <div class="col-lg-12">
   <br><br>
   <div class="text-block">
-    <a class="btn btn--primary type--uppercase" target="_blank" rel="noopener" href="https://forms.gle/EpHv84TTsDvUuNCf6">
+    <a class="btn btn--primary type--uppercase" target="_blank" rel="noopener" href="mailto:careers@improwised.com?subject=Apply for Head of People Operations(HR)">
     <span class="btn__text">
       Apply
     </span>
