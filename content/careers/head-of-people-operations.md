@@ -88,9 +88,9 @@ sitemap:
       Full time
     </p>
   </div>
-  <div class="bullets">
+  <div  class="text-block">
     <h5>Educational Qualification:</h5>
-    <ul>
+    <ul class="bullets">
       <li>
         Resourceful, problem-solving aptitude and thorough knowledge of HR procedures and policies.
       </li>
