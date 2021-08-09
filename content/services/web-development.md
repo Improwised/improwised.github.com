@@ -3,8 +3,8 @@ title: "Web Development"
 date: 2018-05-21T16:20:27+05:30
 draft: false
 url: "/web-software-development"
-metaTitle: "Software | Web App | Offshore Web Software Development"
-metaDes: "Our software services delight clients with topnotch technology with, development, deployment & high quality product."
+metaTitle: "Software Development Services | Web App Development | Offshore Web Software Development"
+metaDes: "Our software development services delight clients with topnotch web technology usage, best development and deployment process and high quality product. Get web based software solution development and ongoing support."
 weight: 2
 imagePath: "/services/web-development.jpg"
 shortDes: "We provide top-notch services in the field of software development. Software development is a difficult task, which requires skills and technical expertise."
