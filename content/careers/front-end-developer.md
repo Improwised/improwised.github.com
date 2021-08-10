@@ -2,6 +2,8 @@
 title: "Sr Frontend Developer"
 date: 2019-10-03T12:56:24+05:30
 draft: false
+metaDes: "Improwised Technologies looking for a Front-End Web Developer who combine art of design with the art of programming."
+
 weight: 5
 carrerSummary:
   time: 'fulltime'
