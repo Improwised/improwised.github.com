@@ -14,3 +14,7 @@ googleAnalytics = "UA-562351-11"
   API_URL = "https://rnnmftp4t7.execute-api.us-west-2.amazonaws.com/production/api/contactus"
   SITE_KEY = "6LfM73IUAAAAAFFFAv5jHjpT_UIjRZqD2xcijnwn"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
