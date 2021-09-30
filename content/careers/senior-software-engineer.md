@@ -1,7 +1,7 @@
 ---
-title: "Senior Software Engineer"
+title: "Sr. Software Engineer"
 date: 2019-10-03T12:39:42+05:30
-draft: true
+draft: false
 weight: 1
 carrerSummary:
   time: 'fulltime'
@@ -12,10 +12,10 @@ sitemap:
 
 <div class="col-md-8 col-sm-12 job-details">
   <p>
-    We are seeking a Senior Software Developer to work on a variety of projects ranging from SaaS products to building out API’s and architecting backend tools. 
+    We are seeking a Sr. Software Developer to work on a variety of projects ranging from SaaS products to building out API’s and architecting backend tools. 
   </p>
   <p>
-      The ideal candidate will be a full-stack web application developer (talented on both frontend and backend) who has a knack for problem solving and critical thinking. We are looking for someone with experience architecting solutions and breaking business requirements down into achievable technical tasks. Experience with pair programming, code review, and developing team best practices is also important. 
+    The ideal candidate will be a full-stack web application developer (talented on both frontend and backend) who has a knack for problem solving and critical thinking. We are looking for someone with experience architecting solutions and breaking business requirements down into achievable technical tasks. Experience with pair programming, code review, and developing team best practices is also important. 
   </p>
   <div class="text-block">
     <h5>Responsibilities</h5>
@@ -33,7 +33,7 @@ sitemap:
         A strong business and technical vision and the ability to translate these in business and technical approaches, and lead engineering efforts to meet aggressive timelines with optimal solutions.
       </li>
       <li>
-        Proven experience of developing large-scale projects from conception to completion.
+        Proven experience in developing large-scale projects from conception to completion.
       </li>
       <li>
         Collaborate with your peers and product management to define the engineering roadmap, and provide your input to prioritize different projects.
@@ -72,7 +72,7 @@ sitemap:
         work on significant issues that require intangible data analysis. They’re tasked with independently evaluating their work according to employer-specific criteria. Full stack developers are relied upon to recommend solutions to challenges requiring complex technical trade-offs (for example, speed versus reliability or manufacturability versus overall performance).
       </li>
       <li>
-        need to confidently utilize server-side languages (such JavaScript) and back-end languages for databases (such as Node.js, Python, Ruby, and PHP)
+        need to confidently utilize server-side languages (such JavaScript) and back-end languages for databases (such as Golang, Node.js, Python, Ruby, and PHP)
       </li>
       <li>
         Define an application’s scope and objectives. Draw up technical and functional specifications for written documentation
@@ -95,7 +95,7 @@ sitemap:
     <h5>Skills required:</h5>
     <ul class="bullets">
       <li>
-        Extensive knowledge and Hands on software development in any of these languages: JavaScript/PHP
+        Extensive knowledge and Hands-on software development in any of these languages: Golang/JavaScript/PHP
       </li>
       <li>
         Strong Knowledge on frameworks like Laravel,Express and Sails.
