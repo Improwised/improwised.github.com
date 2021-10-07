@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body class=" " data-smooth-scroll-offset='64'>
+    <a id="start"></a>
+    {{ partial "navigation.html" . }}
+    <!--  -->
+    <link rel="stylesheet" type="text/css" href="/css/markdown.css">
+    <!--  -->
+    <div class="main-container career">
+      <section class="space--xs serviceHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h1>{{.Params.title}}</h1>
+              {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+              {{ $.Scratch.Add "path" .Site.BaseURL }}
+              {{ $.Scratch.Add "currentURL" .RelPermalink }}
+              {{ $pageNotFound := (eq (replace $.Site.BaseURL .Site.BaseURL "404.html") .RelPermalink) }}
+              <!-- <ol class="breadcrumbs">
+                <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+                {{ range $index, $element := split $url "/" }}
+                {{ $.Scratch.Add "path" $element }}
+                {{ $.Scratch.Add "path" "/" }}
+                {{ $isLast := eq ($.Scratch.Get "path") $.Permalink }}
+                {{ if ne $element "" }}
+                {{ if and (not $isLast) (not $pageNotFound) }}
+                <li><a href='{{ $.Scratch.Get "path" }}'>{{ title ( replace . "-" " ") }}</a></li>
+                {{ else if $pageNotFound }}
+                <li>404</li>
+                {{ else }}
+                <li>{{ $.Title }}</li>
+                {{ end }}
+                {{ end }}
+                {{ end }}
+              </ol> -->
+            </div>
+          </div>
+          <!--end of row-->
+        </div>
+        <!--end of container-->
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+              <article class="markdown-body">
+                <div>
+                  {{.Content}}
+                </div>
+              </article>
+            </div>
+          </div>
+          <!--end of row-->
+        </div>
+        <!--end of container-->
+      </section>
+    </div>
+    {{ partial "footer.html" . }}
+    <!--  -->
+    <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+    <i class="stack-interface stack-up-open-big"></i>
+    </a>
+    {{ partial "scripts.html" . }}
+    {{ if eq .Site.Params.env "production" }}
+      {{ template "_internal/google_analytics_async.html" . }}
+    {{ end }}
+  </body>
+</html>
