@@ -1,7 +1,7 @@
 ---
 title: "Head of People Operations"
 date: 2021-08-06T18:54:07+05:30
-draft: false
+draft: true
 metaTitle: "Head of People Operations (HR) - Improwised Technologies Pvt. Ltd"
 metaDes: "We are looking for an experienced, resourceful HR professional to join our team and spearhead our efforts to build and grow a unique organization that has humility, autonomy, and efficiency at its core. You will be expected to wear many hats, and will have both administrative and strategic responsibilities."
 weight: 3
