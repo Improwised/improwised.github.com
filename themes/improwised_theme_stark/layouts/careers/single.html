@@ -5,8 +5,21 @@
     <a id="start"></a>
     {{ partial "navigation.html" . }}
     <!--  -->
+    <style type="text/css">
+      ul.bullets {
+        list-style: outside;
+        padding-left: 20px;
+      }
+      .career .hspecing {
+        padding: 3.85714286em 0 3.85714286em 0;
+      }
+      .m-0 {
+        margin: 0 !important;
+      }
+    </style>
+    <!--  -->
     <div class="main-container career">
-      <section class="space--sm">
+      <div class="hspecing"> 
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
@@ -33,22 +46,18 @@
                 {{ end }}
                 {{ end }}
               </ol>
-              <hr>
+              <hr class="m-0">
             </div>
           </div>
           <!--end of row-->
         </div>
         <!--end of container-->
-      </section>
-      <section class="switchable">
-        <div class="container">
-          <div class="row jobPosition">
-            {{.Content}}
-          </div>
-          <!--end of row-->
+      </div>
+      <div class="container">
+        <div class="row jobPosition">
+          {{.Content}}
         </div>
-        <!--end of container-->
-      </section>
+      </div>
       <section class="text-center">
         <div class="container">
           <div class="row">
