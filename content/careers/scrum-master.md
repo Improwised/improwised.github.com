@@ -4,7 +4,7 @@ date: 2021-10-29T17:53:36+05:30
 draft: false
 metaTitle: "Scrum Master - Improwised Technologies Pvt. Ltd"
 metaDes: "We are looking for an experienced project management professional to join our team and help us transition through agile transformation across the organization. You will be responsible for helping the development team to continuously improve and achieve their potential."
-weight: 3
+weight: 4
 carrerSummary:
   time: 'fulltime'
   text: '2+ years of relevant experience'
@@ -46,6 +46,12 @@ sitemap:
   </div>
 </div>
 <div class="col-md-offset-1 col-md-3 col-sm-12">
+  <div class="text-block">
+    <h5>Compensation</h5>
+    <p>
+      4.5LPA+ CTC
+    </p>
+  </div>
   <div class="text-block">
     <h5>Experience</h5>
     <p>

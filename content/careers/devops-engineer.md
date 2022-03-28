@@ -4,7 +4,7 @@ date: 2019-07-22T17:22:03+05:30
 draft: false
 metaTitle: "DevOps Engineer - Improwised Technologies Pvt. Ltd"
 metaDes: "We need DevOps engineer who works with software developers, system operators (SysOps) and other production IT staff to oversee code releases and deployments."
-weight: 3
+weight: 2
 carrerSummary:
   time: 'fulltime'
   text: '0-3 years of relevant experience'

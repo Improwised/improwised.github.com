@@ -5,6 +5,15 @@
         <a id="start"></a>
         {{ partial "navigation.html" . }}
         <!--  -->
+        <style type="text/css">
+          .feature h5.mt-15px {
+            margin-top: 15px;
+          }
+          .m-0 {
+            margin: 0;
+          }
+        </style>
+        <!--  -->
         <div class="main-container careers">
           <section class="text-center heroUnit">
             <div class="container">
@@ -28,18 +37,18 @@
                 <!-- Ranges through content/careers/*.md -->
                 {{ range .Data.Pages }}
                   <div class="col-sm-4">
-                    <div class="feature feature-1 boxed boxed--border">
+                    <div class="feature boxed boxed--border" style="height: auto;">
                       {{if .Params.carrerSummary.time}}
-                        <span class="label">{{.Params.carrerSummary.time}}</span>
+                        <div class="label">{{.Params.carrerSummary.time}}</div>
                       {{end}}
-                      <h5>{{.Title}}</h5>
+                      <h5 class="mt-15px">{{.Title}}</h5>
                       {{if .Params.carrerSummary.text}}
                       <p>
                         {{.Params.carrerSummary.text}}
                       </p>
                       {{end}}
                       <a href="{{.RelPermalink}}">
-                      View &amp; Apply
+                        View &amp; Apply
                       </a>
                     </div>
                     <!--end feature-->

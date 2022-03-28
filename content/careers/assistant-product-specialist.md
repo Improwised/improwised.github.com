@@ -4,7 +4,7 @@ date: 2022-03-28T15:06:39+05:30
 draft: false
 metaTitle: "Assistant Product Specialist - Improwised Technologies Pvt. Ltd"
 metaDes: "We are looking for a self-starting, entrepreneul professional to join our team and help and support the Product Specialist or work independently in discovering and improving a product’s market fit. You will work with Product Specialists, stakeholders, and clients to define and document product’s vision, features, and user experience."
-weight: 3
+weight: 7
 carrerSummary:
   time: 'fulltime'
   text: '0-3 years of relevant experience'

@@ -2,7 +2,7 @@
 title: "Software Engineer"
 date: 2018-05-21T13:03:18+05:30
 draft: false
-weight: 2
+weight: 6
 carrerSummary:
   time: 'fulltime'
   text: '0-5 Years of relevant experience'

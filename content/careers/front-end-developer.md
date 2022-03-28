@@ -1,10 +1,9 @@
 ---
-title: "Sr Frontend Developer"
+title: "Sr. Software Engineer (Frontend)"
 date: 2019-10-03T12:56:24+05:30
 draft: false
 metaDes: "Improwised Technologies looking for a Front-End Web Developer who combine art of design with the art of programming."
-
-weight: 5
+weight: 3
 carrerSummary:
   time: 'fulltime'
   text: '2+ years of relevant experience'
@@ -73,6 +72,12 @@ sitemap:
   </div>
 </div>
 <div class="col-md-offset-1 col-md-3 col-sm-12">
+  <div class="text-block">
+    <h5>Compensation</h5>
+    <p>
+      6LPA+ CTC
+    </p>
+  </div>
   <div class="text-block">
     <h5>Experience</h5>
     <p>

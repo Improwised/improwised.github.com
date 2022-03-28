@@ -1,5 +1,5 @@
 ---
-title: "Sr. Software Engineer"
+title: "Sr. Software Engieer (Full-stack)"
 date: 2019-10-03T12:39:42+05:30
 draft: false
 weight: 1
@@ -140,6 +140,12 @@ sitemap:
   </div>
 </div>
 <div class="col-md-offset-1 col-md-3 col-sm-12">
+  <div class="text-block">
+    <h5>Compensation</h5>
+    <p>
+      6LPA+ CTC
+    </p>
+  </div>
   <div class="text-block">
     <h5>Experience</h5>
     <p>
