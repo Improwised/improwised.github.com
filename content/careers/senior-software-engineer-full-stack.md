@@ -1,5 +1,5 @@
 ---
-title: "Sr. Software Engieer (Full-stack)"
+title: "Sr. Software Engineer (Full-stack)"
 date: 2019-10-03T12:39:42+05:30
 draft: false
 weight: 1
