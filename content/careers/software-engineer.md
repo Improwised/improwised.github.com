@@ -1,19 +1,66 @@
 ---
 title: "Software Engineer"
 date: 2018-05-21T13:03:18+05:30
-draft: true
-weight: 2
+draft: false
+weight: 6
 carrerSummary:
   time: 'fulltime'
-  text: '1 to 2 years of relevant experience'
+  text: '0-5 Years of relevant experience'
 sitemap:
   priority: 0.7
 ---
 
 <div class="col-md-8 col-sm-12 job-details">
   <p>
-    Interested in working with cutting edge technologies building online applications? Does solving difficult technical challenges at large scale appeal to you? If so, please join us as we grow our team responsible for developing cloud solutions. We help startups and enterprises design and implement products at web scale. We utilize cutting edge technology within our software development process, including Node.js, React, Docker, all designed to run on top of the cloud. You’ll have the opportunity to work with a very talented team of engineers as we continue to grow the business to meet the needs of our customers today, tomorrow, and beyond.
+    We are primarily a Software Development agency specializing in building high-scale cloud-native SaaS and enterprise applications. Our customers range from startups to large publicly-listed enterprises across the US and Europe.
   </p>
+  <p>
+    We are looking for a detail-oriented, adaptable full-stack software professional to join our multi-functional team to help develop and deliver world-class applications for our customers. You are expected to work independently or within the team to build solutions that are efficient and scalable. You will write clean, maintainable, testable code that adheres to the industry best practices, and be completely responsible for full software development lifecycle from conception to deployment.
+  </p>
+
+  <div class="text-block">
+    <h5>Objectives of this Role</h5>
+    <ul class="bullets">
+      <li>Master the art of software development while working on various programming languages, frameworks and tools across frontend, backend, and infrastructure.</li>
+      <li>Interact with customers and product specialists to understand the scope of the software, and work with the development team to ideate software solutions.</li>
+      <li>Ensure code quality, integrity and organization for continued maintainability of the codebase.</li>
+      <li>Create appealing, easy-to-use frontend application through responsive, mobile-first design.</li>
+      <li>Build cloud-native services that are horizontally scalable.</li>
+      <li>Learn, practice and master Agile software building and DevSecOps mindset to ensure delivery of quality software within the timelines.</li>
+    </ul>
+  </div>
+  <div class="text-block">
+    <h5>Daily and Monthly Responsibilities</h5>
+    <ul class="bullets">
+      <li>Devise and implement software solutions by writing code and assembling the right open-source tools</li>
+      <li>Review and test code contributed by the teammates.</li>
+      <li>Write unit and integration tests for the application.</li>
+      <li>Design the database schema to suit the needs of the application, and write performant queries to interact with the data within.</li>
+      <li>Troubleshoot and debug software through combination of metrics, logs, and traces.</li>
+      <li>Write technical documentation.</li>
+      <li>Patch, upgrade and maintain the software by addressing bugs and security advisories.</li>
+    </ul>
+  </div>
+  <div class="text-block">
+    <h5>Skills and Qualifications</h5>
+    <ul class="bullets">
+      <li>Exceptional problem-solving skills</li>
+      <li>High adaptability and learning ability</li>
+      <li>Excellent communication skills and exceptional teamwork</li>
+      <li>
+        Deep knowledge of at least one programming language, and/or frameworks from each of the following:
+        <ul class="bullets">
+          <li>Frontend: JavaScript (Vue.js, React.js, Angular.js), HTML (Vue Template, JSX, Handlebars), CSS (Bootstrap)</li>
+          <li>Backend: Go, PHP (Laravel), JavaScript/Node.js, Python</li>
+          <li>Databases: PostgreSQL, MySQL</li>
+        </ul>
+      </li>
+      <li>An analytical and logical mind with high attention to detail</li>
+      <li>Knowledge and experience working with containers and other cloud-native technology is a plus.</li>
+      <li>Knowledge and experience working on Agile/Scrum teams is a plus.</li>
+    </ul>
+  </div>
+
   <div class="text-block">
     <h5>Responsibilities</h5>
     <ul class="bullets">
@@ -72,9 +119,15 @@ sitemap:
 </div>
 <div class="col-md-offset-1 col-md-3 col-sm-12">
   <div class="text-block">
+    <h5>Compensation</h5>
+    <p>
+      3-5.4 LPA CTC
+    </p>
+  </div>
+  <div class="text-block">
     <h5>Experience</h5>
     <p>
-      1 to 2 years of relevant experience
+      0-5 Years of relevant experience
     </p>
   </div>
   <div class="text-block">

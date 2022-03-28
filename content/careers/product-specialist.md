@@ -1,10 +1,10 @@
 ---
-title: "Product Owner"
+title: "Product Specialist"
 date: 2021-10-29T17:53:08+05:30
 draft: false
 metaTitle: "Product Owner - Improwised Technologies Pvt. Ltd"
 metaDes: "We are looking for an experienced product management professional to join our team and help us transition through agile transformation across the organization. You will be responsible for coordinating with product stakeholders, understand the product needs, translate them into detailed user stories for the development team, and ensuring that the team is building the right product above all else."
-weight: 3
+weight: 5
 carrerSummary:
   time: 'fulltime'
   text: '2+ years of relevant experience'
@@ -43,6 +43,12 @@ sitemap:
   </div>
 </div>
 <div class="col-md-offset-1 col-md-3 col-sm-12">
+  <div class="text-block">
+    <h5>Compensation</h5>
+    <p>
+      4.5LPA+ CTC
+    </p>
+  </div>
   <div class="text-block">
     <h5>Experience</h5>
     <p>
