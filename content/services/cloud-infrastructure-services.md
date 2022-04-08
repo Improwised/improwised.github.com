@@ -7,7 +7,7 @@ metaTitle: "Top Cloud Infrastructure Services | Best Cloud Computing Services"
 metaDes: "From cloud infrastructure development to all cloud computing services to enable a scalable, reliable and secure software cloud infrastructure for you. Our experts will provide omnichannel cloud infrastructure services and solutions at affordable rates."
 weight: 3
 imagePath: "/services/cloud-infrastructure-services.jpg"
-shortDes: "Elevate your business by using abundant power of cloud platforms. The cloud platforms have brought radical changes in the IT industry."
+shortDes: "Elevate your business by using the abundant power of cloud platforms. Cloud platforms have brought radical changes to the IT industry."
 ---
 
 

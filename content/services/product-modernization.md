@@ -7,7 +7,7 @@ metaTitle: "Software Product Modernization Services | Legacy Application Moderni
 metaDes: "Give your legacy application a boost with our software product modernization services. We can make your legacy business solutions scalable, robust and secure with our expert legacy app modernization and migration services."
 weight: 4
 imagePath: "/services/product-modernization.png"
-shortDes: "Each business has to face disruption due to challenges and amendments in business model, client expectations and the legacy system."
+shortDes: "Each business has to face disruption due to challenges and amendments in the business model, client expectations, and the legacy system."
 ---
 
 Each business has to face disruption due to challenges and amendments in the business model, client expectations, and the legacy system. This disruption can shackle employee productivity and the overall growth of the company. The modernization of the legacy system bestows a myriad of benefits such as improved longevity, performance, usability, etc.
